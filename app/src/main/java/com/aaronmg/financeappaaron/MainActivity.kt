@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.aaronmg.financeappaaron.components.Header
+import com.aaronmg.financeappaaron.components.SummarySection
 import com.aaronmg.financeappaaron.models.User
 import com.aaronmg.financeappaaron.ui.theme.Background
 import com.aaronmg.financeappaaron.ui.theme.FinanceAppAaronTheme
@@ -43,6 +44,7 @@ fun FinanceApp(innerPadding: PaddingValues){
             .background(Background)
     ) {
         Header(user = dummyUser)
+        SummarySection()
     }
 }
 

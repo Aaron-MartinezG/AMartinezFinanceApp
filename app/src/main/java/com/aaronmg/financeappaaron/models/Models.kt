@@ -9,8 +9,8 @@ data class User(
 
 data class SummaryCard(
     val title : String,
-    val amount : Double,
-    val color : Color
+    val amount : String,
+    val color : Color,
 )
 
 data class Transaction(
